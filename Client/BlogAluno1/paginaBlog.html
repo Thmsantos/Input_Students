@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Projetos Integradores</title>
+        <link rel="stylesheet" href="styles_onibus.css" />
+        <script src="script2.js"></script>
+    </head>
+    <body>
+        <nav id="side-bar">
+            <!--<div class="btn-menu">
+                <img src="menu.png" id="expandir">
+            </div>-->
+    
+            <ul>
+                <li class="pag-menu" name="perfil" onclick="redirecionarPerfil()">
+                    <a href="#">
+                        <span class="icon">
+                            <img src="perfilIcon.png">
+                        </span>
+                        <span class="txt-link">Perfil</span>
+                    </a>
+                </li>
+                <li class="pag-menu" name="mural" onclick="redirecionarMural()">
+                    <a href="#">
+                        <span class="icon">
+                            <img src="mural.png">
+                        </span>
+                        <span class="txt-link">Mural</span>
+                    </a>
+                </li>
+                <li class="pag-menu" name="blog" onclick="redirecionarBlog()">
+                    <a href="#">
+                        <span class="icon">
+                            <img src="blog.png">
+                        </span>
+                        <span class="txt-link">Blog</span>
+                    </a>
+                </li>
+                <li class="pag-menu" name="sair">
+                    <a href="../BlogInicial/index.html">
+                        <span class="icon">
+                            <img src="sair.png">
+                        </span>
+                        <span class="txt-link">Sair</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+ <!-- projeto -->
+
+         <div class="container">
+            <img id="img-fatec" src="capa.png">       
+            <h1>Conteúdos DSM</h1>
+            <div class="box">
+                <div class="item">
+                    <div class="title">
+                        <h3>Figma</h3>
+                        
+                    </div>
+                    <div class="text">
+                        <p>Aprenda a mexer no Figma e faça edições pro seu trabalho!</p>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="btn">Veja Mais</button>
+                    </div>
+                    
+                </div>
+
+                <div class="item">
+                    <div class="title">
+                        <h3>Teams</h3>
+                       
+                    </div>
+                    <div class="text">
+                        <p>Ainda perdido com o Teams? Acesse e tire suas dúvidas</p>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="btn">Veja Mais</button>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="title">
+                        <h3>Git Hub</h3>
+                       
+                    </div>
+                    <div class="text">
+                        <p>Você conhece o Git Hub? Click no botão abaixo e conheça!</p>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="btn">Veja Mais</button>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="title">
+                        <h3>Draw.io</h3>
+                        
+                    </div>
+                    <div class="text">
+                        <p>Precisa de um site que faça diagramas? Use o Draw.io!</p>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="btn">Veja Mais</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <!-- começar por aqui  -->
+        
+        <h3>
+            Conheça os Projetos Integradores apresentados pelos alunos de DSM
+        </h3>
+        
+        <h1>
+            Projetos Integradores
+        </h1>
+
+        <div class="carousel">
+            <button class="prev" onclick="moveSlide(-1)">❮</button>
+            <div class="slides">
+                <!-- Exemplo com três imagem, verificar as imagens-->
+                <img src="WhatsApp Image 2023-10-18 at 12.33.37.jpeg" alt="Imagem 1" />
+                <img src="WhatsApp Image 2023-10-18 at 12.33.37.jpeg" alt="Imagem 2" />
+                <img src="WhatsApp Image 2023-10-18 at 12.33.37.jpeg"Imagem 3" />
+            </div>
+            <button class="next" onclick="moveSlide(1)">❯</button>
+        </div>
+        <!-- <div class="indicators"></div> -->
+
+        
+        </div>
+ 
+
+
+
+<!-- onibus -->  
+
+
+        <div class="container" id="space-cont4">
+
+            <h1>Horários dos ônibus</h1>
+            <h4>É hora de voltar pra casa? Fique atento aos horários!</h4>
+
+            <div class="content">
+               
+                   <!-- Box à esquerda -->  
+                   <div class="box-left">
+                    <button class="search-button">PESQUISAR TRAJETO</button>
+                    <p id="texto"> 
+
+                        Texto breve sobre como buscar rotas neste campo abaixo
+                        se necessário.
+                    </p>
+                    <div class="schedule">
+                        <h3>DIA / HORÁRIOS</h3>
+                        <p>Seg 7:40 e 12:35</p>
+                    </div>
+                </div>
+
+                <!-- Mapa à direita -->
+                <div class="box-right">
+                    <iframe src="https://www.google.com/maps/embed?...">
+                        <!-- Insira o link correto do mapa aqui -->
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

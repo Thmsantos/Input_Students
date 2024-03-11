@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="ideia-criativa.png" type="image/png" id="iconUrl">
+    <title>Input Students</title>
+</head>
+<body>
+    <div class="container"><!--Div da primeira section-->
+        
+        <div class="navbar">
+            <label>Input Students</label>
+            <label>
+                <a href="../InputS_login/acessoST.html">Login</a>
+            </label>
+        </div>
+
+        <div class="conteudo-grid">
+
+            <div class="item-1">
+                <img src="logoIS2.png">
+            </div>
+
+            <div class="grid">
+                <div class="item-2">
+                    <label>SEJA BEM-VINDO AO</label><br>
+                    <h1 id="title">INPUT STUDENTS</h1>
+                </div>
+            </div>
+            
+        </div>
+        <div class="conteudo-grid-2">
+            <p>Na jornada da faculdade, ninguém está sozinho. Descubra, explore e se inspire em uma plataforma feita por estudantes, para estudantes.</p><br>
+
+            <button onclick="redCadas()" type="submit" id="btn-cadastro">Cadastre-se já</button>
+        </div>
+    </div>
+    <!--Fim da primeira sessão-->
+
+    <div class="container-2">
+        <h1>Desenvolvimento de Software e Multiplataforma</h1>
+
+        <div class="conteudo-grid-3">
+            <div class="div-cont-3">
+
+                <p id="txt-2">O curso de DSM (Desenvolvimento de Software e Multiplataforma) prepara os alunos para desenvolver softwares para diversas plataformas: web, desktop, móvel e em nuvem internet das coisas, empregando conceitos, como segurança da informação, inteligência artificial, integração e entrega contínua de software.
+                </p><br>
+
+                <button class="btns"><a href="https://fatecdiadema.com.br/cursos-fatec-diadema/tecnologia-em-desenvolvimento-de-software-multiplataforma/">Veja mais</a></button>
+
+            </div>
+
+            <div class="div-cont-4">
+                <img src="noteimg.png">
+            </div>
+        </div>
+    </div>
+    <div class="container-3">
+        <div>
+            <h1>Você Conhece o Projeto Integrador?</h1>
+
+            <p>Os PIs (Projetos Integradores) são trabalhos desenvolvidos pelos alunos em todos os semestres, com o objetivo de mostrar os aprendizados teóricos e práticos que foi obtido durante o semestre.</p>
+
+            <h3>Conheça alguns dos projetos integradores da Fatec Diadema</h3>
+        </div>
+
+        <div class="carousel-container">
+            <button id="prev-button"><img src="seta-esquerda24px.png"></button>
+            <div class="carousel">
+                <img src="./imageUM.jpg" class="slider on">
+                <img src="./ImageTRES.jpg" class="slider">
+                <img src="./ImageTRES.jpg" class="slider">
+            </div>
+            <button id="next-button"><img src="seta-direita.png"></button>
+        </div>
+    </div>
+
+    <div class="container-4">
+        <div class="title">
+            <h2>Conheça a</h2>
+            <h2 id="title-s4">FATEC DIADEMA - LUIGI PAPAIZ</h2>
+        </div>
+
+        <div class="conteudo-grid-4">
+            <div class="cont-4">
+                <p> A Fatec Diadema - Luigi papaiz, se encontra no Jardim Campanário, próximo ao Centro de Diadema, Taboão e Jardim Miriam.</p>
+                <p>A instituição possui salas e Laboratórios com computadores exclusivos para os alunos de DSM. Uma biblioteca com espaço para estudos, um auditório para apresentações e entre outros.</p>
+                <p>Se interessou? Então venha fazer parte dessa instituição de tem transformado a vida dos cidadãos da região.</p>
+
+                <button class="btns"><a href="https://fatecdiadema.com.br/vestibular/">Fique atento às inscrições</a></button>
+            </div>
+
+            <div class="carousel-container">
+                <button id="prev-button2"><img src="setaEsquerda.png"></button>
+                <div class="carousel">
+                    <img src="./Imagem do WhatsApp de 2023-11-09 à(s) 11.03.28_37c76696.jpg" class="slider2">
+                    <img src="./Imagem do WhatsApp de 2023-11-09 à(s) 11.03.30_4d923de8.jpg" class="slider2  on2">
+                    <img src="./Imagem do WhatsApp de 2023-11-09 à(s) 11.03.32_aa761110.jpg" class="slider2">
+                    <img src="./imageDOIS.jpg" class="slider2 ">
+                    <img src="./ImageTRES.jpg" class="slider2">
+                    <img src="./imageQuatro.jpg" class="slider2">
+                </div>
+                <button id="next-button2"><img src="setaDireita.png"></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function redCadas(){
+            window.location.href = '../InputS_login/cadastroST.html'
+        }
+
+        function redLogin(){
+            window.location.href = '../InputS_login/acessoST.html'
+        }
+    </script>
+</body>
+<script src="code.js"></script>
+</html>
